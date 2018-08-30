@@ -1,19 +1,11 @@
 /* Base Styles */
 
-/*
-
-BEM (block, element, modifier)
-
-Block     ->  house
-Element   ->  house__kitchen
-Modifier  ->  house--condo
-
-*/
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 html {
@@ -22,7 +14,8 @@ html {
 
 body {
   color: #333333;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  background-image: url(../images/background.jpg);
   font-size: 1.6rem;
 }
 
@@ -45,7 +38,10 @@ a {
 /* Header */
 
 .header {
-  background: #43799c;
+  /* background: #43799c; */
+  /* background-image: url(../images/banner2.png); */
+  /* background-position: center; */
+  background-size: cover;
   color: white;
   padding: 1.6rem 0;
 }
@@ -63,8 +59,8 @@ a {
 /* Actions Bar */
 
 .actions {
-    background-color: #F7F7F7;
-    border-bottom: 1px solid #dedfe0;
+    background-color: transparent;
+    border-bottom: 1px solid #1b484e;
     padding: .8rem
 }
 
@@ -155,8 +151,8 @@ a {
 
 .list-item {
     text-decoration: none;
-    color: #333333;
-    background: #F7F7F7;
+    color: #fff;
+    background: transparent;
     border: 1px solid #dedfe0;
     margin: 1.6rem 0;
     padding: 1.6rem;
@@ -170,7 +166,9 @@ a {
 
 .list-item__title {
     font-size: 1.8rem;
-    margin-bottom: .4rem
+    margin-bottom: .4rem;
+    color: #dffffd;
+    text-shadow: 0 0 20px #1df0e7;
 }
 
 .list-item__subtitle {
