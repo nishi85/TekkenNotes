@@ -13,9 +13,11 @@ html {
 }
 
 body {
-  color: #333333;
+  color: #fff;
   /* font-family: Helvetica, Arial, sans-serif; */
   background-image: url(../images/background.jpg);
+  background-position: center;
+  /* background-size: cover; */
   font-size: 1.6rem;
 }
 
@@ -101,8 +103,7 @@ a {
 
 .button {
     background: #43799c;
-    border: none;
-    border-bottom: 2px solid #396684;
+    border: 1px solid #dffffd;
     color: white;
     font-size: 1.4rem;
     font-weight: 300;
@@ -116,7 +117,6 @@ a {
 
 .button--secondary {
     background: #888888;
-    border-bottom: 2px solid #717171;
 }
 
 .button--secondary:hover {
@@ -161,7 +161,7 @@ a {
 }
 
 .list-item:hover {
-    background: #eeeeee;
+    background: #97bbd4;
 }
 
 .list-item__title {
